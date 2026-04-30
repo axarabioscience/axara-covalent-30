@@ -10,7 +10,7 @@ AXARA BioScience · [axara.bio](https://axara.bio) · April 2026
 
 The AXARA Covalent 30 is a curated dataset of covalent photoaffinity labelling (PAL) probe site predictions for 30 of the most commercially important drug discovery targets. Every prediction is independently validated against seven third-party data sources and scored using a three-component engine validated against nine approved covalent drugs.
 
-This repository contains the methodology, target list, validation results, and one free complete dataset (KRAS G12C). Full datasets for all 30 targets are available at [axara.bio](https://axara.bio).
+This repository contains the methodology, target list, validation results, and one free complete dataset (KRAS G12C). Full datasets for all 30 targets are available at [github.com/AxaraBioScience/AXARA-Covalent-30).
 
 ---
 
