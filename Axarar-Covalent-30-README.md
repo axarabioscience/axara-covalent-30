@@ -2,6 +2,8 @@
 
 **The first publicly validated covalent probe site atlas covering 30 high-value drug discovery targets.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19919321.svg)](https://doi.org/10.5281/zenodo.19919321)
+
 AXARA BioScience · [axara.bio](https://axara.bio) · April 2026
 
 ---
@@ -162,7 +164,7 @@ If you use AXARA Covalent 30 data in your research, please cite:
 ```
 AXARA BioScience (2026). AXARA Covalent 30: A validated covalent probe site
 atlas for 30 high-value drug discovery targets. axara.bio
-DOI: 10.5281/zenodo.XXXXXXX
+DOI: DOI: 10.5281/zenodo.19919321
 ```
 
 ---
