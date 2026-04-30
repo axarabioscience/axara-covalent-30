@@ -2,6 +2,8 @@
 
 **Computational probe design intelligence for photoaffinity labelling in drug discovery.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19919321.svg)](https://doi.org/10.5281/zenodo.19919321)
+
 AXARA BioScience produces structural dataset products that tell medicinal chemists and chemical biologists exactly where to attach SDA photoaffinity probes on therapeutically relevant proteins — and what science those probes will reveal. Our datasets are built on published structural biology methods, validated against approved drug co-crystal structures, and delivered as analysis-ready reports with bench-ready experimental guidance.
 
 ---
