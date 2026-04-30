@@ -1,0 +1,237 @@
+{
+  "product": "TAU Covalent Tractability Map",
+  "version": "1.0",
+  "engine_version": "5.0",
+  "release_date": "2026-04-30",
+  "target": "TAU",
+  "primary_structure": "2MZ7",
+  "scoring_mode": "IDP_SURFACE",
+  "enrichment": {
+    "engine_version": "5.0",
+    "fetch_timestamp": "2026-04-30 13:31 UTC",
+    "uniprot_accession": "P10636",
+    "uniprot_gene": "MAPT",
+    "uniprot_function": "Promotes microtubule assembly and stability, and might be involved in the establishment and maintenance of neuronal polarity (PubMed:21985311). The C-terminus binds axonal microtubules while the N-terminus binds neural plasma membrane components, suggesting that tau functions as a linker protein bet",
+    "uniprot_active_sites": [],
+    "uniprot_binding_sites": [],
+    "uniprot_ptm_sites": [
+      2,
+      18,
+      29,
+      44,
+      46,
+      61,
+      69,
+      71,
+      87,
+      111,
+      214,
+      383,
+      467,
+      470,
+      472,
+      480,
+      484,
+      486,
+      491,
+      492,
+      498,
+      502,
+      508,
+      512,
+      514,
+      515,
+      516,
+      519,
+      522,
+      525,
+      529,
+      531,
+      534,
+      542,
+      548,
+      551,
+      552,
+      554,
+      555,
+      571,
+      576,
+      579,
+      584,
+      596,
+      597,
+      598,
+      602,
+      607,
+      610,
+      615,
+      622,
+      628,
+      634,
+      638,
+      641,
+      648,
+      660,
+      664,
+      666,
+      669,
+      670,
+      673,
+      686,
+      692,
+      702,
+      711,
+      713,
+      717,
+      720,
+      721,
+      726,
+      733,
+      739,
+      744
+    ],
+    "natural_variant_count": 27,
+    "chembl_id": "CHEMBL4096",
+    "chembl_total_compounds": 48561,
+    "chembl_covalent_count": 0,
+    "chembl_max_phase": "CHEMBL4096",
+    "chembl_min_ic50_nM": 760.0,
+    "pdb_covalent_count": 287,
+    "pdb_covalent_ids": [
+      "10IJ",
+      "10IK",
+      "1I8H",
+      "22JY",
+      "2MZ7",
+      "2ON9",
+      "3OVL",
+      "4E0M",
+      "4E0N",
+      "4E0O"
+    ],
+    "rcsb_resolution_A": null,
+    "rcsb_clashscore": 65.04,
+    "rcsb_rama_outliers_pct": 24.32,
+    "rcsb_rsrz_outliers_pct": null,
+    "rcsb_quality_pass": false,
+    "rcsb_space_group": "",
+    "fetch_errors": [],
+    "data_sources": {
+      "fpocket": "Le Guilloux et al. 2009 J Cheminform 1:11",
+      "uniprot": "The UniProt Consortium. NAR 2023;51:D523",
+      "chembl": "Mendez et al. NAR 2019;47:D930",
+      "rcsb": "wwPDB Validation Task Force 2011 Structure 19:1395",
+      "conservation": "Shannon CE. 1948 Bell Syst Tech J 27:379",
+      "sasa": "Shrake & Rupley 1973 J Mol Biol 79:351",
+      "sda_chemistry": "Brunner 1993 Annu Rev Biochem 62:483; Kotzyba-Hibert 1995 Angew Chem 34:1296; Murale 2017 Proteome Sci 15:14"
+    }
+  },
+  "top_probe_site": {
+    "residue": "LYS274",
+    "composite_score": 7.75,
+    "third_party_score": 4.0,
+    "uniprot_annotated": false,
+    "conservation": 1.0
+  },
+  "all_scored": [
+    {
+      "rank": 1,
+      "residue": "LYS",
+      "position": 274,
+      "score": 7.75,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 2,
+      "residue": "LYS",
+      "position": 281,
+      "score": 4.22,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 3,
+      "residue": "LYS",
+      "position": 267,
+      "score": 3.5,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 4,
+      "residue": "LYS",
+      "position": 280,
+      "score": 2.71,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 5,
+      "residue": "HIS",
+      "position": 268,
+      "score": 1.9,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    }
+  ],
+  "excluded": [
+    {
+      "residue": "SER285",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER289",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS290",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "CYS291",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER293",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS294",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS298",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "HIS299",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER305",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "TYR310",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS311",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    }
+  ],
+  "producer": "AXARA BioScience",
+  "website": "axara.bio",
+  "contact": "axara@axara.bio"
+}

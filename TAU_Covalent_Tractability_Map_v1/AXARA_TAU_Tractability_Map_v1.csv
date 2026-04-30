@@ -1,0 +1,6 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,LYS,274,197.8,0.965,,1.0,6.0,1.0,False,7.75,IDP_SURFACE,False,False,,1.0,0,287,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,LYS,281,103.9,0.507,,1.0,6.0,1.0,False,4.22,IDP_SURFACE,False,False,,1.0,0,287,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,LYS,267,64.4,0.314,,1.0,6.0,1.0,False,3.5,IDP_SURFACE,False,False,,1.0,0,287,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,LYS,280,34.6,0.169,,1.0,6.0,1.0,False,2.71,IDP_SURFACE,False,False,,1.0,0,287,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,HIS,268,38.7,0.215,,1.0,4.0,1.0,False,1.9,IDP_SURFACE,False,False,,1.0,0,287,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

@@ -1,0 +1,1 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes

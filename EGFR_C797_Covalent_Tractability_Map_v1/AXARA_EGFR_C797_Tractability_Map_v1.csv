@@ -1,0 +1,67 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,CYS,775,7.2,0.053,,1.0,10.0,3.0,False,25.0,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,CYS,781,5.1,0.038,,1.0,10.0,3.0,False,25.0,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,CYS,797,7.3,0.054,,1.0,10.0,3.0,False,25.0,POCKET,False,False,,1.0,0,355,True,6.0,VALIDATED — known covalent site,Published covalent attachment: C797
+4,CYS,818,1.2,0.009,,1.0,10.0,3.0,True,25.0,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,CYS,939,11.9,0.088,,1.0,10.0,3.0,False,25.0,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,CYS,950,1.3,0.01,,1.0,10.0,3.0,True,25.0,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,LYS,875,160.7,0.784,,1.0,6.0,1.0,False,13.22,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,LYS,913,133.0,0.649,,1.0,6.0,1.0,False,12.74,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,LYS,970,120.4,0.587,,1.0,6.0,1.0,False,12.51,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,LYS,757,108.9,0.531,,1.0,6.0,1.0,False,12.31,POCKET,False,False,found in a lung cancer sample,0.833,0,355,True,5.67,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,LYS,929,94.9,0.463,,1.0,6.0,1.0,False,12.07,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+12,LYS,949,94.5,0.461,,1.0,6.0,1.0,False,12.06,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,LYS,867,90.1,0.439,,1.0,6.0,1.0,False,11.98,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,TYR,764,146.2,0.638,,1.0,5.0,1.0,False,11.92,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,LYS,823,86.7,0.423,,1.0,6.0,1.0,False,11.92,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+16,LYS,960,83.5,0.407,,1.0,6.0,1.0,False,11.87,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,LYS,737,79.7,0.389,,1.0,6.0,1.0,False,11.8,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+18,LYS,739,75.4,0.368,,1.0,6.0,1.0,False,11.72,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+19,LYS,728,72.0,0.351,,1.0,6.0,1.0,False,11.67,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+20,LYS,714,64.2,0.313,,1.0,6.0,1.0,False,11.53,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+21,LYS,860,60.9,0.297,,1.0,6.0,1.0,False,11.47,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+22,LYS,713,50.4,0.246,,1.0,6.0,1.0,False,11.28,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+23,HIS,870,126.3,0.702,,1.0,4.0,1.0,False,11.28,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+24,LYS,745,48.6,0.237,,1.0,6.0,1.0,False,11.25,POCKET,False,True,,1.0,0,355,True,7.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+25,LYS,708,48.0,0.234,,1.0,6.0,1.0,False,11.24,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+26,LYS,716,39.9,0.194,,1.0,6.0,1.0,False,11.1,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+27,LYS,879,39.7,0.194,,1.0,6.0,1.0,False,11.1,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+28,HIS,888,112.1,0.622,,1.0,4.0,1.0,False,11.09,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+29,LYS,806,38.9,0.19,,1.0,6.0,1.0,False,11.08,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+30,TYR,813,78.0,0.341,,1.0,5.0,1.0,False,11.02,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+31,LYS,846,33.6,0.164,,1.0,6.0,1.0,False,10.99,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+32,TYR,869,72.9,0.318,,1.0,5.0,1.0,False,10.96,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+33,TYR,727,62.6,0.273,,1.0,5.0,1.0,False,10.82,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+34,HIS,805,78.1,0.434,,1.0,4.0,1.0,False,10.64,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+35,TYR,827,45.9,0.2,,1.0,5.0,1.0,False,10.6,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+36,TYR,944,40.2,0.176,,1.0,5.0,1.0,False,10.53,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+37,TYR,1016,32.5,0.142,,1.0,5.0,1.0,False,10.43,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+38,TYR,978,30.7,0.134,,1.0,5.0,1.0,False,10.4,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+39,TYR,801,28.7,0.125,,1.0,5.0,1.0,False,10.38,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+40,SER,784,130.7,0.914,,1.0,2.5,1.0,False,10.37,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+41,TYR,915,19.9,0.087,,1.0,5.0,1.0,False,10.26,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+42,TYR,891,12.5,0.054,,1.0,5.0,1.0,False,10.16,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+43,HIS,850,39.6,0.22,,1.0,4.0,1.0,False,10.13,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+44,SER,921,101.8,0.712,,1.0,2.5,1.0,False,10.07,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+45,SER,720,101.2,0.708,,1.0,2.5,1.0,False,10.06,POCKET,False,True,,1.0,0,355,True,7.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+46,HIS,893,34.4,0.191,,1.0,4.0,1.0,False,10.06,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+47,HIS,773,27.5,0.153,,1.0,4.0,1.0,False,9.97,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+48,THR,710,130.6,0.801,,1.0,2.0,1.0,False,9.76,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+49,SER,925,69.2,0.484,,1.0,2.5,1.0,False,9.73,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+50,SER,957,54.4,0.38,,1.0,2.5,1.0,False,9.57,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+51,SER,912,48.8,0.341,,1.0,2.5,1.0,False,9.51,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+52,SER,969,41.7,0.292,,1.0,2.5,1.0,False,9.44,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+53,THR,785,64.9,0.398,,1.0,2.0,1.0,False,9.28,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+54,SER,768,25.1,0.175,,1.0,2.5,1.0,False,9.26,POCKET,False,False,found in a lung cancer sample; constitutively activated kinase with higher levels of basal autophosphorylation; more sensitive to gefitinib than wild-type; dbSNP:rs121913465,0.833,0,355,True,5.67,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+55,SER,924,24.0,0.168,,1.0,2.5,1.0,False,9.25,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+56,THR,847,43.9,0.269,,1.0,2.0,1.0,False,9.12,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+57,THR,725,40.7,0.25,,1.0,2.0,1.0,False,9.1,POCKET,False,True,,1.0,0,355,True,7.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+58,THR,783,39.0,0.24,,1.0,2.0,1.0,False,9.09,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+59,SER,895,6.4,0.045,,1.0,2.5,1.0,False,9.07,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+60,SER,899,6.4,0.045,,1.0,2.5,1.0,False,9.07,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+61,THR,892,34.3,0.211,,1.0,2.0,1.0,False,9.05,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+62,SER,885,4.3,0.03,,1.0,2.5,1.0,False,9.04,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+63,THR,940,30.1,0.184,,1.0,2.0,1.0,False,9.02,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+64,THR,909,28.4,0.174,,1.0,2.0,1.0,False,9.01,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+65,THR,854,22.2,0.136,,1.0,2.0,1.0,False,8.96,POCKET,False,False,,1.0,0,355,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+66,THR,790,17.0,0.104,,1.0,2.0,1.0,False,8.93,POCKET,False,True,found in a lung cancer sample; increased kinase activity; dbSNP:rs121434569,0.833,0,355,True,6.67,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation

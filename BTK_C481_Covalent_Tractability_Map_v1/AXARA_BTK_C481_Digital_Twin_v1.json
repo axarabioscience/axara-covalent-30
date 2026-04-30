@@ -1,0 +1,652 @@
+{
+  "product": "BTK_C481 Covalent Tractability Map",
+  "version": "1.0",
+  "engine_version": "5.0",
+  "release_date": "2026-04-30",
+  "target": "BTK_C481",
+  "primary_structure": "3K54",
+  "scoring_mode": "POCKET",
+  "enrichment": {
+    "engine_version": "5.0",
+    "fetch_timestamp": "2026-04-30 13:26 UTC",
+    "uniprot_accession": "P06239",
+    "uniprot_gene": "LCK",
+    "uniprot_function": "Non-receptor tyrosine-protein kinase that plays an essential role in the selection and maturation of developing T-cells in the thymus and in the function of mature T-cells (PubMed:2470098). Plays a key role in T-cell antigen receptor (TCR)-linked signal transduction pathways (PubMed:2470098). Consti",
+    "uniprot_active_sites": [
+      364
+    ],
+    "uniprot_binding_sites": [
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      273
+    ],
+    "uniprot_ptm_sites": [
+      2,
+      3,
+      5,
+      99,
+      102,
+      159,
+      162,
+      192,
+      194,
+      276,
+      394,
+      505
+    ],
+    "natural_variant_count": 6,
+    "chembl_id": "CHEMBL5251",
+    "chembl_total_compounds": 61728,
+    "chembl_covalent_count": 0,
+    "chembl_max_phase": "CHEMBL5251",
+    "chembl_min_ic50_nM": 0.0,
+    "pdb_covalent_count": 57,
+    "pdb_covalent_ids": [
+      "1BHF",
+      "1BHH",
+      "1CWD",
+      "1CWE",
+      "1FBZ",
+      "1H92",
+      "1IJR",
+      "1KIK",
+      "1LCJ",
+      "1LCK"
+    ],
+    "rcsb_resolution_A": 1.94,
+    "rcsb_clashscore": 13.53,
+    "rcsb_rama_outliers_pct": 1.27,
+    "rcsb_rsrz_outliers_pct": 9.47,
+    "rcsb_quality_pass": false,
+    "rcsb_space_group": "P 21 21 2",
+    "fetch_errors": [],
+    "data_sources": {
+      "fpocket": "Le Guilloux et al. 2009 J Cheminform 1:11",
+      "uniprot": "The UniProt Consortium. NAR 2023;51:D523",
+      "chembl": "Mendez et al. NAR 2019;47:D930",
+      "rcsb": "wwPDB Validation Task Force 2011 Structure 19:1395",
+      "conservation": "Shannon CE. 1948 Bell Syst Tech J 27:379",
+      "sasa": "Shrake & Rupley 1973 J Mol Biol 79:351",
+      "sda_chemistry": "Brunner 1993 Annu Rev Biochem 62:483; Kotzyba-Hibert 1995 Angew Chem 34:1296; Murale 2017 Proteome Sci 15:14"
+    }
+  },
+  "top_probe_site": {
+    "residue": "CYS464",
+    "composite_score": 17.43,
+    "third_party_score": 4.0,
+    "uniprot_annotated": false,
+    "conservation": 1.0
+  },
+  "all_scored": [
+    {
+      "rank": 1,
+      "residue": "CYS",
+      "position": 464,
+      "score": 17.43,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 2,
+      "residue": "CYS",
+      "position": 481,
+      "score": 12.26,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "VALIDATED \u2014 known covalent site"
+    },
+    {
+      "rank": 3,
+      "residue": "LYS",
+      "position": 645,
+      "score": 7.83,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 4,
+      "residue": "LYS",
+      "position": 400,
+      "score": 7.62,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 5,
+      "residue": "LYS",
+      "position": 430,
+      "score": 7.19,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 6,
+      "residue": "LYS",
+      "position": 433,
+      "score": 6.98,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 7,
+      "residue": "HIS",
+      "position": 620,
+      "score": 6.94,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 8,
+      "residue": "LYS",
+      "position": 466,
+      "score": 6.93,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 9,
+      "residue": "LYS",
+      "position": 595,
+      "score": 6.73,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 10,
+      "residue": "TYR",
+      "position": 631,
+      "score": 6.58,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 11,
+      "residue": "TYR",
+      "position": 617,
+      "score": 6.55,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 12,
+      "residue": "TYR",
+      "position": 418,
+      "score": 6.38,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 13,
+      "residue": "LYS",
+      "position": 420,
+      "score": 6.21,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 14,
+      "residue": "LYS",
+      "position": 625,
+      "score": 6.21,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 15,
+      "residue": "SER",
+      "position": 649,
+      "score": 6.04,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 16,
+      "residue": "TYR",
+      "position": 627,
+      "score": 5.87,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 17,
+      "residue": "TYR",
+      "position": 476,
+      "score": 5.74,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 18,
+      "residue": "LYS",
+      "position": 417,
+      "score": 5.65,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 19,
+      "residue": "LYS",
+      "position": 406,
+      "score": 5.63,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 20,
+      "residue": "TYR",
+      "position": 485,
+      "score": 5.45,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 21,
+      "residue": "SER",
+      "position": 453,
+      "score": 5.32,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 22,
+      "residue": "LYS",
+      "position": 637,
+      "score": 5.3,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 23,
+      "residue": "SER",
+      "position": 623,
+      "score": 5.06,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 24,
+      "residue": "THR",
+      "position": 410,
+      "score": 5.05,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 25,
+      "residue": "LYS",
+      "position": 573,
+      "score": 5.05,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 26,
+      "residue": "HIS",
+      "position": 635,
+      "score": 5.05,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 27,
+      "residue": "TYR",
+      "position": 392,
+      "score": 4.97,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 28,
+      "residue": "THR",
+      "position": 495,
+      "score": 4.95,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 29,
+      "residue": "LYS",
+      "position": 447,
+      "score": 4.86,
+      "third_party_score": 2.0,
+      "uniprot_active": false,
+      "conservation": 0.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 30,
+      "residue": "TYR",
+      "position": 461,
+      "score": 4.86,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 31,
+      "residue": "LYS",
+      "position": 515,
+      "score": 4.81,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 32,
+      "residue": "HIS",
+      "position": 491,
+      "score": 4.6,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 33,
+      "residue": "SER",
+      "position": 576,
+      "score": 4.6,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 34,
+      "residue": "TYR",
+      "position": 598,
+      "score": 4.58,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 35,
+      "residue": "THR",
+      "position": 628,
+      "score": 4.57,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 36,
+      "residue": "TYR",
+      "position": 425,
+      "score": 4.53,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 37,
+      "residue": "LYS",
+      "position": 503,
+      "score": 4.53,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 38,
+      "residue": "TYR",
+      "position": 571,
+      "score": 4.25,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 39,
+      "residue": "HIS",
+      "position": 454,
+      "score": 4.17,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 40,
+      "residue": "SER",
+      "position": 394,
+      "score": 3.98,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 41,
+      "residue": "SER",
+      "position": 514,
+      "score": 3.87,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 42,
+      "residue": "HIS",
+      "position": 609,
+      "score": 3.83,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 43,
+      "residue": "HIS",
+      "position": 519,
+      "score": 3.81,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 44,
+      "residue": "THR",
+      "position": 465,
+      "score": 3.66,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 45,
+      "residue": "SER",
+      "position": 575,
+      "score": 3.24,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 46,
+      "residue": "SER",
+      "position": 572,
+      "score": 3.09,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 47,
+      "residue": "SER",
+      "position": 604,
+      "score": 2.78,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 48,
+      "residue": "THR",
+      "position": 403,
+      "score": 2.67,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 49,
+      "residue": "THR",
+      "position": 602,
+      "score": 2.47,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 0.5,
+      "evidence_tier": "NOVEL PREDICTION"
+    }
+  ],
+  "excluded": [
+    {
+      "residue": "LYS456",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR474",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "CYS502",
+      "reason": "Buried CYS, dist 9.9A to pocket"
+    },
+    {
+      "residue": "CYS506",
+      "reason": "Buried CYS, dist 7.1A to pocket"
+    },
+    {
+      "residue": "TYR511",
+      "reason": "Buried (rel_SASA 0.005 < 0.03)"
+    },
+    {
+      "residue": "CYS527",
+      "reason": "Buried CYS, dist 12.8A to pocket"
+    },
+    {
+      "residue": "LYS536",
+      "reason": "Buried (rel_SASA 0.011 < 0.03)"
+    },
+    {
+      "residue": "SER538",
+      "reason": "Buried (rel_SASA 0.016 < 0.03)"
+    },
+    {
+      "residue": "SER564",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS577",
+      "reason": "Buried (rel_SASA 0.012 < 0.03)"
+    },
+    {
+      "residue": "SER578",
+      "reason": "Buried (rel_SASA 0.016 < 0.03)"
+    },
+    {
+      "residue": "TYR591",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER592",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR606",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER632",
+      "reason": "Buried (rel_SASA 0.025 < 0.03)"
+    },
+    {
+      "residue": "CYS633",
+      "reason": "Buried CYS, dist 8.2A to pocket"
+    },
+    {
+      "residue": "THR643",
+      "reason": "Buried (rel_SASA 0.030 < 0.03)"
+    }
+  ],
+  "producer": "AXARA BioScience",
+  "website": "axara.bio",
+  "contact": "axara@axara.bio"
+}

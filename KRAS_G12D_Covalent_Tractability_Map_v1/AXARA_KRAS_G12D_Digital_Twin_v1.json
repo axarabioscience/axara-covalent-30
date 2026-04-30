@@ -1,0 +1,308 @@
+{
+  "product": "KRAS_G12D Covalent Tractability Map",
+  "version": "1.0",
+  "engine_version": "5.0",
+  "release_date": "2026-04-30",
+  "target": "KRAS_G12D",
+  "primary_structure": "8FGN",
+  "scoring_mode": "POCKET",
+  "enrichment": {
+    "engine_version": "5.0",
+    "fetch_timestamp": "2026-04-30 13:27 UTC",
+    "uniprot_accession": "P01116",
+    "uniprot_gene": "KRAS",
+    "uniprot_function": "Ras proteins bind GDP/GTP and possess intrinsic GTPase activity (PubMed:20949621, PubMed:39809765). Plays an important role in the regulation of cell proliferation (PubMed:22711838, PubMed:23698361). Activates MAPK1/MAPK3 resulting in phosphorylation and ultimately degradation of GJA1 (By similarity",
+    "uniprot_active_sites": [],
+    "uniprot_binding_sites": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      59,
+      60,
+      116,
+      117,
+      118,
+      119
+    ],
+    "uniprot_ptm_sites": [
+      1,
+      2,
+      35,
+      104,
+      170,
+      180,
+      182,
+      184,
+      185,
+      186
+    ],
+    "natural_variant_count": 20,
+    "chembl_id": "CHEMBL2095731",
+    "chembl_total_compounds": 0,
+    "chembl_covalent_count": 0,
+    "chembl_max_phase": 0,
+    "chembl_min_ic50_nM": null,
+    "pdb_covalent_count": 487,
+    "pdb_covalent_ids": [
+      "10JT",
+      "10NU",
+      "10NV",
+      "11QE",
+      "1D8D",
+      "1D8E",
+      "1KZO",
+      "1KZP",
+      "2MSC",
+      "2MSD"
+    ],
+    "rcsb_resolution_A": 2.2,
+    "rcsb_clashscore": 7.48,
+    "rcsb_rama_outliers_pct": 0.38,
+    "rcsb_rsrz_outliers_pct": 1.49,
+    "rcsb_quality_pass": true,
+    "rcsb_space_group": "P 1 21 1",
+    "fetch_errors": [],
+    "data_sources": {
+      "fpocket": "Le Guilloux et al. 2009 J Cheminform 1:11",
+      "uniprot": "The UniProt Consortium. NAR 2023;51:D523",
+      "chembl": "Mendez et al. NAR 2019;47:D930",
+      "rcsb": "wwPDB Validation Task Force 2011 Structure 19:1395",
+      "conservation": "Shannon CE. 1948 Bell Syst Tech J 27:379",
+      "sasa": "Shrake & Rupley 1973 J Mol Biol 79:351",
+      "sda_chemistry": "Brunner 1993 Annu Rev Biochem 62:483; Kotzyba-Hibert 1995 Angew Chem 34:1296; Murale 2017 Proteome Sci 15:14"
+    }
+  },
+  "top_probe_site": {
+    "residue": "LYS139",
+    "composite_score": 6.26,
+    "third_party_score": 6.0,
+    "uniprot_annotated": false,
+    "conservation": 1.0
+  },
+  "all_scored": [
+    {
+      "rank": 1,
+      "residue": "LYS",
+      "position": 139,
+      "score": 6.26,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 2,
+      "residue": "LYS",
+      "position": 72,
+      "score": 5.87,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 3,
+      "residue": "TYR",
+      "position": 81,
+      "score": 5.36,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 4,
+      "residue": "SER",
+      "position": 136,
+      "score": 5.07,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 5,
+      "residue": "THR",
+      "position": 80,
+      "score": 4.69,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 6,
+      "residue": "THR",
+      "position": 162,
+      "score": 4.53,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 7,
+      "residue": "SER",
+      "position": 78,
+      "score": 4.31,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 8,
+      "residue": "SER",
+      "position": 137,
+      "score": 3.97,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 9,
+      "residue": "TYR",
+      "position": 134,
+      "score": 3.45,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 10,
+      "residue": "SER",
+      "position": 141,
+      "score": 3.45,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 11,
+      "residue": "SER",
+      "position": 125,
+      "score": 3.29,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 12,
+      "residue": "HIS",
+      "position": 146,
+      "score": 3.15,
+      "third_party_score": 5.33,
+      "uniprot_active": false,
+      "conservation": 0.667,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 13,
+      "residue": "THR",
+      "position": 160,
+      "score": 3.08,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 14,
+      "residue": "TYR",
+      "position": 135,
+      "score": 2.96,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 15,
+      "residue": "THR",
+      "position": 83,
+      "score": 2.53,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 16,
+      "residue": "SER",
+      "position": 168,
+      "score": 2.42,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 17,
+      "residue": "SER",
+      "position": 85,
+      "score": 2.36,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 18,
+      "residue": "THR",
+      "position": 95,
+      "score": 2.32,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 19,
+      "residue": "SER",
+      "position": 143,
+      "score": 2.06,
+      "third_party_score": 6.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    }
+  ],
+  "excluded": [
+    {
+      "residue": "CYS94",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS99",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "SER102",
+      "reason": "Buried (rel_SASA 0.017 < 0.03)"
+    },
+    {
+      "residue": "TYR163",
+      "reason": "Buried (rel_SASA 0.011 < 0.03)"
+    }
+  ],
+  "producer": "AXARA BioScience",
+  "website": "axara.bio",
+  "contact": "axara@axara.bio"
+}

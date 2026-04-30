@@ -1,0 +1,27 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,LYS,70,157.5,0.768,,1.0,6.0,1.0,False,6.25,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,LYS,94,111.9,0.546,,1.0,6.0,1.0,False,4.8,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,LYS,36,117.8,0.575,,1.0,6.0,1.0,False,4.47,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,LYS,64,99.3,0.485,,1.0,6.0,1.0,False,4.14,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,LYS,51,90.4,0.441,,1.0,6.0,1.0,False,3.99,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,LYS,39,88.0,0.43,,1.0,6.0,1.0,False,3.95,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,LYS,31,82.2,0.401,,1.0,6.0,1.0,False,3.84,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,TYR,76,96.8,0.423,,1.0,5.0,1.0,False,3.76,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,LYS,98,78.9,0.385,,1.0,6.0,1.0,False,3.75,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,LYS,45,78.2,0.381,,1.0,6.0,1.0,False,3.4,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,TYR,100,55.6,0.243,,1.0,5.0,1.0,False,2.7,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+12,TYR,104,67.7,0.296,,1.0,5.0,1.0,False,2.6,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,HIS,96,73.9,0.41,,1.0,4.0,1.0,False,2.58,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,TYR,67,42.2,0.184,,1.0,5.0,1.0,False,2.53,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,TYR,56,51.7,0.226,,1.0,5.0,1.0,False,2.41,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+16,SER,78,90.2,0.631,,1.0,2.5,1.0,False,2.24,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,TYR,60,11.8,0.052,,1.0,5.0,1.0,False,1.94,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+18,HIS,73,27.3,0.152,,1.0,4.0,1.0,False,1.86,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+19,SER,40,77.1,0.539,,1.0,2.5,1.0,False,1.81,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+20,SER,90,58.4,0.408,,1.0,2.5,1.0,False,1.77,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+21,THR,63,100.7,0.618,,1.0,2.0,1.0,False,1.54,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+22,THR,101,70.5,0.433,,1.0,2.0,1.0,False,1.45,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+23,SER,92,17.4,0.122,,1.0,2.5,1.0,False,1.17,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+24,THR,47,49.9,0.306,,1.0,2.0,1.0,False,1.05,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+25,THR,26,43.5,0.267,,1.0,2.0,1.0,False,1.01,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+26,THR,49,24.5,0.151,,1.0,2.0,1.0,False,0.88,IDP_SURFACE,False,False,,1.0,0,145,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

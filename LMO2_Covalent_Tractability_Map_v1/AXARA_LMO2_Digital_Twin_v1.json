@@ -1,0 +1,367 @@
+{
+  "product": "LMO2 Covalent Tractability Map",
+  "version": "1.0",
+  "engine_version": "5.0",
+  "release_date": "2026-04-30",
+  "target": "LMO2",
+  "primary_structure": "2XJY",
+  "scoring_mode": "IDP_SURFACE",
+  "enrichment": {
+    "engine_version": "5.0",
+    "fetch_timestamp": "2026-04-30 13:30 UTC",
+    "uniprot_accession": "P25791",
+    "uniprot_gene": "LMO2",
+    "uniprot_function": "Acts with TAL1/SCL to regulate red blood cell development. Also acts with LDB1 to maintain erythroid precursors in an immature state",
+    "uniprot_active_sites": [],
+    "uniprot_binding_sites": [],
+    "uniprot_ptm_sites": [],
+    "natural_variant_count": 0,
+    "chembl_id": "CHEMBL3680",
+    "chembl_total_compounds": 1,
+    "chembl_covalent_count": 0,
+    "chembl_max_phase": "CHEMBL3680",
+    "chembl_min_ic50_nM": 30000.0,
+    "pdb_covalent_count": 3,
+    "pdb_covalent_ids": [
+      "2XJY",
+      "2XJZ",
+      "4KFZ"
+    ],
+    "rcsb_resolution_A": 2.4,
+    "rcsb_clashscore": 6.89,
+    "rcsb_rama_outliers_pct": 0.62,
+    "rcsb_rsrz_outliers_pct": 6.02,
+    "rcsb_quality_pass": false,
+    "rcsb_space_group": "P 1 21 1",
+    "fetch_errors": [],
+    "data_sources": {
+      "fpocket": "Le Guilloux et al. 2009 J Cheminform 1:11",
+      "uniprot": "The UniProt Consortium. NAR 2023;51:D523",
+      "chembl": "Mendez et al. NAR 2019;47:D930",
+      "rcsb": "wwPDB Validation Task Force 2011 Structure 19:1395",
+      "conservation": "Shannon CE. 1948 Bell Syst Tech J 27:379",
+      "sasa": "Shrake & Rupley 1973 J Mol Biol 79:351",
+      "sda_chemistry": "Brunner 1993 Annu Rev Biochem 62:483; Kotzyba-Hibert 1995 Angew Chem 34:1296; Murale 2017 Proteome Sci 15:14"
+    }
+  },
+  "top_probe_site": {
+    "residue": "CYS130",
+    "composite_score": 8.91,
+    "third_party_score": 3.0,
+    "uniprot_annotated": false,
+    "conservation": 1.0
+  },
+  "all_scored": [
+    {
+      "rank": 1,
+      "residue": "CYS",
+      "position": 130,
+      "score": 8.91,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "VALIDATED \u2014 known covalent site"
+    },
+    {
+      "rank": 2,
+      "residue": "LYS",
+      "position": 111,
+      "score": 5.92,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 3,
+      "residue": "LYS",
+      "position": 153,
+      "score": 5.68,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 4,
+      "residue": "LYS",
+      "position": 127,
+      "score": 5.42,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 5,
+      "residue": "CYS",
+      "position": 62,
+      "score": 5.36,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 6,
+      "residue": "LYS",
+      "position": 99,
+      "score": 4.67,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 7,
+      "residue": "LYS",
+      "position": 113,
+      "score": 4.5,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 8,
+      "residue": "TYR",
+      "position": 149,
+      "score": 4.08,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 9,
+      "residue": "LYS",
+      "position": 121,
+      "score": 3.8,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 10,
+      "residue": "TYR",
+      "position": 41,
+      "score": 3.5,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 11,
+      "residue": "LYS",
+      "position": 74,
+      "score": 3.49,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 12,
+      "residue": "SER",
+      "position": 26,
+      "score": 3.36,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 13,
+      "residue": "LYS",
+      "position": 44,
+      "score": 3.19,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 14,
+      "residue": "HIS",
+      "position": 128,
+      "score": 3.13,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 15,
+      "residue": "TYR",
+      "position": 49,
+      "score": 3.02,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 16,
+      "residue": "LYS",
+      "position": 78,
+      "score": 2.62,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 17,
+      "residue": "TYR",
+      "position": 104,
+      "score": 2.57,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 18,
+      "residue": "TYR",
+      "position": 73,
+      "score": 2.49,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 19,
+      "residue": "THR",
+      "position": 29,
+      "score": 1.53,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 20,
+      "residue": "SER",
+      "position": 56,
+      "score": 1.53,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 21,
+      "residue": "THR",
+      "position": 152,
+      "score": 1.37,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 22,
+      "residue": "SER",
+      "position": 96,
+      "score": 1.3,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 23,
+      "residue": "SER",
+      "position": 140,
+      "score": 1.24,
+      "third_party_score": 3.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    }
+  ],
+  "excluded": [
+    {
+      "residue": "CYS30",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS33",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "HIS51",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS54",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS57",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS60",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "TYR72",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "CYS80",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "TYR84",
+      "reason": "Buried (rel_SASA 0.028 < 0.03)"
+    },
+    {
+      "residue": "CYS94",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS97",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "THR107",
+      "reason": "Buried (rel_SASA 0.007 < 0.03)"
+    },
+    {
+      "residue": "TYR115",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "HIS116",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS119",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS122",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "CYS125",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    },
+    {
+      "residue": "TYR135",
+      "reason": "Buried (rel_SASA 0.014 < 0.03)"
+    },
+    {
+      "residue": "CYS144",
+      "reason": "Zinc-coordinating \u2014 metal-bound, non-reactive"
+    }
+  ],
+  "producer": "AXARA BioScience",
+  "website": "axara.bio",
+  "contact": "axara@axara.bio"
+}

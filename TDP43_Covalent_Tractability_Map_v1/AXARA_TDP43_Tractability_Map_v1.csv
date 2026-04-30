@@ -1,0 +1,3 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,SER,333,9.6,0.067,,0.253,2.5,1.0,False,3.13,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,SER,350,14.8,0.103,,0.113,2.5,1.0,False,2.06,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

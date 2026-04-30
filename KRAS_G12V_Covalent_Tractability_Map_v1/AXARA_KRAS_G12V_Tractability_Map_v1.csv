@@ -1,0 +1,35 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,CYS,118,37.4,0.277,,0.24,10.0,3.0,False,11.42,POCKET,False,True,,1.0,0,487,False,5.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+2,LYS,101,24.3,0.118,,0.692,6.0,1.0,False,8.36,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,TYR,96,38.2,0.167,,0.622,5.0,1.0,False,7.47,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,LYS,167,157.2,0.767,,0.279,6.0,1.0,False,7.4,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,LYS,5,76.8,0.375,,0.453,6.0,1.0,False,7.37,POCKET,False,False,in GASC; found also in a patient with Costello syndrome; exhibits only minor alterations in its in vitro biochemical behavior compared to wild-type protein; dbSNP:rs104894361,0.667,0,487,False,3.33,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,HIS,166,72.1,0.401,,0.559,4.0,1.0,False,7.04,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,LYS,147,88.4,0.431,,0.379,6.0,1.0,False,6.99,POCKET,False,False,in CFC2; dbSNP:rs387907206,0.833,0,487,False,3.67,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,LYS,128,135.7,0.662,,0.27,6.0,1.0,False,6.95,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,LYS,88,120.5,0.588,,0.303,6.0,1.0,False,6.94,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,LYS,104,51.9,0.253,,0.451,6.0,1.0,False,6.92,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,TYR,32,179.1,0.782,,0.306,5.0,1.0,False,6.79,POCKET,False,True,,1.0,0,487,False,5.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+12,TYR,4,15.7,0.068,,0.568,5.0,1.0,False,6.75,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,LYS,165,150.7,0.735,,0.137,6.0,1.0,False,6.14,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,THR,50,5.6,0.034,,0.643,2.0,1.0,False,5.99,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,THR,35,5.8,0.035,,0.566,2.0,1.0,False,5.37,POCKET,False,True,,1.0,0,487,False,5.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+16,SER,65,75.4,0.527,,0.386,2.5,1.0,False,4.88,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,SER,17,9.4,0.066,,0.468,2.5,1.0,False,4.84,POCKET,False,True,,1.0,0,487,False,5.0,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+18,THR,2,66.0,0.405,,0.431,2.0,1.0,False,4.74,POCKET,False,False,,1.0,0,487,False,4.0,VALIDATED — known covalent site,Published covalent attachment: K12
+19,HIS,27,111.6,0.62,,0.2,4.0,1.0,False,4.69,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+20,TYR,71,34.1,0.149,,0.265,5.0,1.0,False,4.57,POCKET,False,False,in CFC2; dbSNP:rs387907205,0.833,0,487,False,3.67,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+21,TYR,157,9.7,0.042,,0.3,5.0,1.0,False,4.53,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+22,SER,106,49.0,0.343,,0.342,2.5,1.0,False,4.25,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+23,HIS,94,83.5,0.464,,0.191,4.0,1.0,False,4.24,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+24,LYS,117,16.4,0.08,,0.177,6.0,1.0,False,4.11,POCKET,False,True,in colorectal cancer samples; somatic mutation; dbSNP:rs770248150,0.833,0,487,False,4.67,LITERATURE-ADJACENT,UniProt Swiss-Prot binding site annotation
+25,TYR,137,35.5,0.155,,0.18,5.0,1.0,False,3.91,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+26,SER,136,83.8,0.586,,0.214,2.5,1.0,False,3.59,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+27,THR,148,85.9,0.527,,0.267,2.0,1.0,False,3.57,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+28,TYR,64,35.1,0.153,,0.11,5.0,1.0,False,3.34,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+29,SER,122,65.0,0.455,,0.207,2.5,1.0,False,3.34,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+30,THR,127,48.9,0.3,,0.268,2.0,1.0,False,3.3,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+31,THR,74,99.2,0.609,,0.197,2.0,1.0,False,3.11,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+32,THR,158,19.0,0.117,,0.195,2.0,1.0,False,2.5,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+33,THR,87,73.2,0.449,,0.129,2.0,1.0,False,2.37,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+34,THR,124,69.9,0.429,,0.124,2.0,1.0,False,2.31,POCKET,False,False,,1.0,0,487,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

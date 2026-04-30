@@ -1,0 +1,20 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,LYS,139,182.6,0.891,,0.082,6.0,1.0,False,6.26,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,LYS,72,40.9,0.2,,0.344,6.0,1.0,False,5.87,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,TYR,81,98.0,0.428,,0.26,5.0,1.0,False,5.36,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,SER,136,64.5,0.451,,0.425,2.5,1.0,False,5.07,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,THR,80,25.1,0.154,,0.463,2.0,1.0,False,4.69,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,THR,162,27.5,0.169,,0.441,2.0,1.0,False,4.53,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,SER,78,45.9,0.321,,0.354,2.5,1.0,False,4.31,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,SER,137,50.9,0.356,,0.304,2.5,1.0,False,3.97,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,TYR,134,28.9,0.126,,0.134,5.0,1.0,False,3.45,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,SER,141,67.5,0.472,,0.217,2.5,1.0,False,3.45,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,SER,125,53.1,0.371,,0.217,2.5,1.0,False,3.29,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+12,HIS,146,18.0,0.1,,0.163,4.0,1.0,False,3.15,POCKET,False,False,in OES; somatic mutation; dbSNP:rs1057519725,0.667,0,487,True,5.33,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,THR,160,111.6,0.684,,0.183,2.0,1.0,False,3.08,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,TYR,135,9.4,0.041,,0.104,5.0,1.0,False,2.96,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,THR,83,50.4,0.309,,0.17,2.0,1.0,False,2.53,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+16,SER,168,55.7,0.39,,0.104,2.5,1.0,False,2.42,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,SER,85,5.5,0.038,,0.163,2.5,1.0,False,2.36,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+18,THR,95,29.0,0.178,,0.163,2.0,1.0,False,2.32,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+19,SER,143,50.2,0.351,,0.066,2.5,1.0,False,2.06,POCKET,False,False,,1.0,0,487,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

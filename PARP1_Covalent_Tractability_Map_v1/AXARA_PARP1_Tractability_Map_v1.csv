@@ -1,0 +1,27 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,LYS,87,160.4,0.782,,0.454,6.0,1.0,False,8.85,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,LYS,30,111.8,0.546,,0.438,6.0,1.0,False,7.87,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,HIS,66,112.1,0.623,,0.484,4.0,1.0,False,6.97,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,LYS,7,70.5,0.344,,0.405,6.0,1.0,False,6.87,POCKET,False,False,,1.0,0,82,True,6.0,VALIDATED — known covalent site,Published covalent attachment: Y907
+5,LYS,47,123.5,0.602,,0.264,6.0,1.0,False,6.68,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,LYS,59,164.5,0.802,,0.133,6.0,1.0,False,6.35,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,SER,75,40.1,0.281,,0.569,2.5,1.0,False,5.97,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,TYR,13,45.5,0.199,,0.384,5.0,1.0,False,5.67,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,LYS,84,93.3,0.455,,0.204,6.0,1.0,False,5.67,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,LYS,23,103.8,0.506,,0.175,6.0,1.0,False,5.62,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,LYS,22,78.3,0.382,,0.212,6.0,1.0,False,5.47,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+12,SER,16,14.5,0.101,,0.515,2.5,1.0,False,5.27,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,LYS,86,92.4,0.451,,0.14,6.0,1.0,False,5.14,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,SER,55,94.8,0.663,,0.375,2.5,1.0,False,4.99,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,SER,32,28.7,0.201,,0.422,2.5,1.0,False,4.68,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+16,LYS,15,69.9,0.341,,0.117,6.0,1.0,False,4.57,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,SER,63,94.2,0.659,,0.273,2.5,1.0,False,4.17,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+18,THR,88,39.8,0.244,,0.384,2.0,1.0,False,4.17,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+19,SER,27,80.1,0.56,,0.263,2.5,1.0,False,3.94,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+20,HIS,50,50.7,0.282,,0.185,4.0,1.0,False,3.76,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+21,TYR,9,31.0,0.135,,0.161,5.0,1.0,False,3.69,POCKET,False,False,,1.0,0,82,True,6.0,VALIDATED — known covalent site,Published covalent attachment: Y907
+22,SER,20,43.9,0.307,,0.274,2.5,1.0,False,3.65,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+23,TYR,52,22.5,0.098,,0.17,5.0,1.0,False,3.65,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+24,SER,25,82.7,0.578,,0.192,2.5,1.0,False,3.4,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+25,SER,41,9.9,0.069,,0.285,2.5,1.0,False,3.38,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+26,HIS,62,55.8,0.31,,0.113,4.0,1.0,False,3.24,POCKET,False,False,,1.0,0,82,True,6.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

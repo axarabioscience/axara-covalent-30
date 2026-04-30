@@ -1,0 +1,31 @@
+rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
+1,LYS,131,176.6,0.861,,1.0,6.0,1.0,False,6.6,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,LYS,145,163.5,0.797,,1.0,6.0,1.0,False,5.8,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,LYS,150,156.6,0.764,,1.0,6.0,1.0,False,5.67,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,LYS,6,137.4,0.67,,1.0,6.0,1.0,False,5.29,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,LYS,149,118.7,0.579,,1.0,6.0,1.0,False,4.48,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,LYS,92,102.3,0.499,,1.0,6.0,1.0,False,4.2,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,LYS,14,83.3,0.406,,1.0,6.0,1.0,False,3.86,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,TYR,147,106.0,0.463,,1.0,5.0,1.0,False,3.39,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+9,LYS,10,76.3,0.372,,1.0,6.0,1.0,False,3.37,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+10,LYS,139,73.2,0.357,,1.0,6.0,1.0,False,3.32,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+11,LYS,68,72.3,0.352,,1.0,6.0,1.0,False,3.3,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+12,LYS,74,49.5,0.241,,1.0,6.0,1.0,False,3.24,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+13,LYS,151,64.6,0.315,,1.0,6.0,1.0,False,3.18,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+14,LYS,137,57.6,0.281,,1.0,6.0,1.0,False,3.07,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+15,SER,3,117.0,0.818,,1.0,2.5,1.0,False,2.45,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+16,TYR,34,16.2,0.071,,1.0,5.0,1.0,False,2.19,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+17,TYR,76,9.9,0.043,,1.0,5.0,1.0,False,2.11,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+18,HIS,28,50.7,0.282,,1.0,4.0,1.0,False,2.05,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+19,TYR,62,13.9,0.061,,1.0,5.0,1.0,False,1.96,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+20,SER,114,80.0,0.56,,1.0,2.5,1.0,False,1.84,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+21,SER,17,78.8,0.551,,1.0,2.5,1.0,False,1.83,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+22,THR,93,104.2,0.639,,1.0,2.0,1.0,False,1.57,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+23,SER,96,41.2,0.288,,1.0,2.5,1.0,False,1.29,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+24,THR,24,65.5,0.402,,1.0,2.0,1.0,False,1.27,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+25,SER,107,27.2,0.19,,1.0,2.5,1.0,False,1.16,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+26,SER,87,20.4,0.142,,1.0,2.5,1.0,False,1.09,IDP_SURFACE,True,False,,1.0,0,44,False,6.0,VALIDATED — known covalent site,Published covalent attachment: C87
+27,THR,103,47.2,0.29,,1.0,2.0,1.0,False,1.03,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+28,THR,73,11.5,0.071,,1.0,2.0,1.0,False,0.88,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+29,THR,38,22.3,0.137,,1.0,2.0,1.0,False,0.87,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+30,THR,12,20.5,0.126,,1.0,2.0,1.0,False,0.86,IDP_SURFACE,False,False,,1.0,0,44,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
