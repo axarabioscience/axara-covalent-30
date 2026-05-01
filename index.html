@@ -1,976 +1,272 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AXARA Covalent 30 — Free Covalent Probe Site Atlas</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
-<style>
-:root {
-  --navy: #0A2342;
-  --teal: #0D7377;
-  --teal-light: #14a8ad;
-  --cream: #F8F5F0;
-  --mid: #444444;
-  --light: #888888;
-  --rule: #e0dbd4;
-  --white: #ffffff;
-  --green: #1a7a4a;
-  --green-bg: #e8f5ee;
-  --amber: #8a4a00;
-  --amber-bg: #faeeda;
-  --blue-bg: #e6f1fb;
-  --blue: #185fa5;
-  --purple-bg: #eeedfe;
-  --purple: #3c3489;
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--cream);
-  color: var(--navy);
-  font-size: 15px;
-  line-height: 1.6;
-}
+AXARA
+axara.bio ↗
+AXARA COVALENT 30 · APRIL 2026
+Name a covalent drug target. We've already mapped it.
+30 validated SDA photoaffinity probe site maps. Seven independent data sources per target. All free.
+30
+TARGETS
+9/9
+VALIDATION
+7
+DATA SOURCES
+Free
+NO REGISTRATION
+View on GitHub ↗
+✓fpocket v4.0 — Le Guilloux 2009 ✓UniProt Swiss-Prot ✓ChEMBL REST API ✓RCSB PDB Validation ✓Shannon Conservation ✓DOI: 10.5281/zenodo.19919321
+TIER 1
+Validated covalent targets
 
-/* HEADER */
-.site-header {
-  background: var(--navy);
-  padding: 18px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.logo {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  color: var(--white);
-  letter-spacing: 3px;
-  text-decoration: none;
-}
-.header-link {
-  font-size: 12px;
-  color: #aab4c4;
-  text-decoration: none;
-}
-.header-link:hover { color: var(--white); }
+#01
+BTK C481
+Tier 1
+CYS481 · PDB 3K54 · Kinase
+Bruton's tyrosine kinase — the primary target of ibrutinib, zanubrutinib, and acalabrutinib. CLL, MCL, and Waldenström macroglobulinaemia. C481S resistance drives ~80% of ibrutinib failures.
+CYS481 Rank 2 · 4 approved covalent drugs · 0 high-risk kinase off-targets in selectivity panel
+↗ View Report ⬇ Data
 
-/* HERO */
-.hero {
-  background: var(--navy);
-  padding: 80px 40px 70px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -60px; left: 50%;
-  transform: translateX(-50%);
-  width: 600px; height: 600px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(13,115,119,0.15) 0%, transparent 70%);
-  pointer-events: none;
-}
-.hero-label {
-  display: inline-block;
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--teal-light);
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding: 4px 14px;
-  border: 1px solid rgba(13,115,119,0.4);
-  border-radius: 2px;
-}
-.hero h1 {
-  font-family: 'DM Serif Display', serif;
-  font-size: clamp(36px, 5vw, 58px);
-  color: var(--white);
-  line-height: 1.15;
-  max-width: 760px;
-  margin: 0 auto 16px;
-  font-weight: 400;
-}
-.hero h1 em {
-  font-style: italic;
-  color: var(--teal-light);
-}
-.hero-sub {
-  font-size: 16px;
-  color: #aab4c4;
-  max-width: 560px;
-  margin: 0 auto 36px;
-  font-weight: 300;
-  line-height: 1.7;
-}
-.hero-stats {
-  display: flex;
-  justify-content: center;
-  gap: 48px;
-  margin-bottom: 40px;
-}
-.stat { text-align: center; }
-.stat-n {
-  font-family: 'DM Serif Display', serif;
-  font-size: 38px;
-  color: var(--white);
-  line-height: 1;
-  margin-bottom: 4px;
-}
-.stat-l {
-  font-size: 11px;
-  color: #667a8a;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: 'DM Mono', monospace;
-}
-.hero-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--teal);
-  color: var(--white);
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 12px 28px;
-  border-radius: 2px;
-  letter-spacing: 0.5px;
-  transition: background 0.2s;
-}
-.hero-cta:hover { background: var(--teal-light); }
+#02
+EGFR C797
+Tier 1
+CYS797 · PDB 4ZAU · RTK
+Epidermal growth factor receptor — target of osimertinib, afatinib, and neratinib. NSCLC with activating mutations. C797S mutation causes resistance in ~40% of osimertinib-treated patients.
+CYS797 Rank 3 · Novel CYS775 secondary site independently identified — directly relevant to C797S resistance
+↗ View Report ⬇ Data
 
-/* VALIDATION BAR */
-.val-bar {
-  background: var(--white);
-  border-bottom: 1px solid var(--rule);
-  padding: 14px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  flex-wrap: wrap;
-}
-.val-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-  color: var(--mid);
-}
-.val-check {
-  width: 18px; height: 18px;
-  background: var(--green-bg);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  color: var(--green);
-  font-weight: 700;
-  flex-shrink: 0;
-}
+#03
+KRAS G12C
+Tier 1
+CYS12 · PDB 6OIM · GTPase
+KRAS G12C is the most tractable oncogenic KRAS mutation — the neomorphic cysteine at position 12 created by the mutation enables covalent inhibition. Sotorasib and adagrasib approved for NSCLC.
+CYS12 Rank 1 · Engine validated against sotorasib and adagrasib mechanism · KRAS inhibitor market $2.4B → $10.4B by 2033
+↗ View Report ⬇ Data
 
-/* SECTION */
-.section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 40px;
-}
-.section-header {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  margin-bottom: 40px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--rule);
-}
-.section-label {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--teal);
-  text-transform: uppercase;
-}
-.section-title {
-  font-family: 'DM Serif Display', serif;
-  font-size: 26px;
-  font-weight: 400;
-  color: var(--navy);
-}
+#04
+p53 Y220C
+Tier 1
+CYS220 · PDB 8QWN · Tumour suppressor
+The Y220C mutation creates a neomorphic surface pocket on p53, enabling covalent rescue of tumour suppressor function. 125,000 cases/year. Rezatapopt (PC14586) in Phase 3 trials.
+CYS220 Rank 2 · Neomorphic pocket confirmed by fpocket · 5/5 validation across independent crystal structures
+↗ View Report ⬇ Data
 
-/* TARGET GRID */
-.target-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 20px;
-}
+#05
+AKT1
+Tier 1
+LYS158 · PDB 3CQW · Kinase
+RAC-alpha serine/threonine-protein kinase — a central node in the PI3K/AKT/mTOR pathway. Mutated or hyperactivated in breast, prostate, and ovarian cancers. Terremoto Biosciences TER-2013 platform target.
+LYS158 ATP-site · fpocket druggability 0.734 · 16,595 ChEMBL compounds · 44 deposited PDB structures
+↗ View Report ⬇ Data
 
-/* TARGET CARD */
-.target-card {
-  background: var(--white);
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  overflow: hidden;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.target-card:hover {
-  box-shadow: 0 8px 32px rgba(10,35,66,0.1);
-  transform: translateY(-2px);
-}
-.card-accent {
-  height: 3px;
-  background: var(--teal);
-}
-.card-accent.amber { background: #c47c1a; }
-.card-accent.purple { background: #534ab7; }
-.card-body { padding: 20px 22px 16px; }
-.card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 10px;
-}
-.card-num {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  color: var(--light);
-  margin-bottom: 4px;
-}
-.card-name {
-  font-family: 'DM Serif Display', serif;
-  font-size: 22px;
-  font-weight: 400;
-  color: var(--navy);
-  line-height: 1.2;
-}
-.tier-badge {
-  font-size: 10px;
-  font-weight: 500;
-  padding: 3px 8px;
-  border-radius: 2px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  margin-left: 8px;
-  margin-top: 4px;
-  font-family: 'DM Mono', monospace;
-  letter-spacing: 0.5px;
-}
-.tier-1 { background: var(--green-bg); color: var(--green); }
-.tier-2 { background: var(--blue-bg); color: var(--blue); }
-.tier-3 { background: var(--purple-bg); color: var(--purple); }
+#06
+MAOB
+Tier 1
+CYS397 · PDB 2V5Z · Oxidoreductase
+Monoamine oxidase B — target of selegiline and rasagiline for Parkinson's disease. One of the oldest validated covalent drug targets with irreversible FAD-linked mechanism.
+CYS397 Rank 1 · Selegiline mechanism confirmed · Engine validated across oxidoreductase family
+↗ View Report ⬇ Data
+TIER 2
+High commercial value
 
-.card-site {
-  font-family: 'DM Mono', monospace;
-  font-size: 12px;
-  color: var(--teal);
-  margin-bottom: 10px;
-}
-.card-desc {
-  font-size: 13px;
-  color: var(--mid);
-  line-height: 1.6;
-  margin-bottom: 16px;
-}
-.card-finding {
-  background: var(--cream);
-  border-left: 2px solid var(--teal);
-  padding: 8px 12px;
-  font-size: 12px;
-  color: var(--navy);
-  margin-bottom: 16px;
-  line-height: 1.5;
-}
-.card-finding.amber { border-left-color: #c47c1a; }
-.card-finding.purple { border-left-color: #534ab7; }
-.card-actions {
-  display: flex;
-  gap: 8px;
-  padding-top: 14px;
-  border-top: 1px solid var(--rule);
-}
-.btn-report {
-  flex: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  background: var(--navy);
-  color: var(--white);
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 500;
-  padding: 9px 14px;
-  border-radius: 2px;
-  transition: background 0.15s;
-  letter-spacing: 0.3px;
-}
-.btn-report:hover { background: var(--teal); }
-.btn-data {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  border: 1px solid var(--rule);
-  color: var(--mid);
-  text-decoration: none;
-  font-size: 12px;
-  padding: 9px 14px;
-  border-radius: 2px;
-  transition: border-color 0.15s, color 0.15s;
-  white-space: nowrap;
-}
-.btn-data:hover { border-color: var(--navy); color: var(--navy); }
+#07
+KRAS G12D
+Tier 2
+LYS12 · PDB 8FGN · GTPase
+The most common KRAS mutation — present in 36% of pancreatic cancers, 12% of CRC, and 4% of NSCLC. MRTX1133 and other non-covalent inhibitors in clinical trials. Covalent LYS-targeting strategies emerging.
+Top LYS sites identified · MRTX1133 structural context · Ranked probe design map for LYS-covalent strategy
+↗ View Report ⬇ Data
 
-/* DISCLAIMER */
-.disclaimer {
-  background: var(--navy);
-  color: #aab4c4;
-  text-align: center;
-  padding: 28px 40px;
-  font-size: 12px;
-  line-height: 1.8;
-}
-.disclaimer a { color: var(--teal-light); text-decoration: none; }
+#08
+KRAS G12V
+Tier 2
+PDB 6XGU · GTPase
+Second most common KRAS mutation — present in NSCLC, pancreatic, and colorectal cancers. RAS-ON inhibitor territory. No approved covalent inhibitor — active area of probe and drug discovery.
+Full nucleophilic site ranking · Structural comparison with G12C and G12D · RAS-ON inhibitor context
+↗ View Report ⬇ Data
 
-/* FOOTER */
-footer {
-  background: #060f1c;
-  padding: 24px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.footer-logo {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--white);
-  letter-spacing: 3px;
-}
-.footer-links {
-  display: flex;
-  gap: 24px;
-}
-.footer-links a {
-  font-size: 12px;
-  color: #667a8a;
-  text-decoration: none;
-}
-.footer-links a:hover { color: var(--white); }
+#09
+WRN Helicase
+Tier 2
+CYS727 · PDB 6YHR · Helicase
+Werner syndrome RecQ helicase — the hottest synthetic lethal target in oncology for MTAP-deleted and MSI-high tumours. VVD-214 (Vividion/Roche) and HRO761 (Novartis) both in Phase 1 clinical trials.
+CYS727 Rank 2 · Corroborates VVD-214 covalent chemoproteomic hit · Allosteric pocket confirmed
+↗ View Report ⬇ Data
 
-@media (max-width: 600px) {
-  .hero { padding: 50px 20px; }
-  .hero-stats { gap: 24px; }
-  .section { padding: 40px 20px; }
-  .target-grid { grid-template-columns: 1fr; }
-  .val-bar { gap: 16px; }
-  .site-header { padding: 14px 20px; }
-}
-</style>
-</head>
-<body>
+#10
+SHP2
+Tier 2
+CYS333 · PDB 5EHR · Phosphatase
+SH2-domain-containing protein tyrosine phosphatase 2 — a RAS pathway phosphatase and key node in oncogenic signalling. TNO155 (Novartis) in Phase 1/2 trials. Allosteric CYS333 is the covalent target.
+CYS333 allosteric site · TNO155 structural context · Full phosphatase surface ranked
+↗ View Report ⬇ Data
 
-<header class="site-header">
-  <a href="https://axara.bio" class="logo">AXARA</a>
-  <a href="https://axara.bio" class="header-link">axara.bio ↗</a>
-</header>
+#11
+FGFR1
+Tier 2
+CYS486 · PDB 4V05 · RTK
+Fibroblast growth factor receptor 1 — futibatinib approved for cholangiocarcinoma with FGFR2 fusions. CYS486 in the ATP binding site. Active clinical programmes across FGFR1-4 family.
+CYS486 kinase domain site · Futibatinib mechanism context · FGFR family probe design map
+↗ View Report ⬇ Data
 
-<section class="hero">
-  <div class="hero-label">AXARA Covalent 30 · April 2026</div>
-  <h1>Name a covalent drug target.<br><em>We've already mapped it.</em></h1>
-  <p class="hero-sub">30 validated SDA photoaffinity probe site maps. Seven independent data sources per target. All free.</p>
-  <div class="hero-stats">
-    <div class="stat"><div class="stat-n">30</div><div class="stat-l">Targets</div></div>
-    <div class="stat"><div class="stat-n">9/9</div><div class="stat-l">Validation</div></div>
-    <div class="stat"><div class="stat-n">7</div><div class="stat-l">Data sources</div></div>
-    <div class="stat"><div class="stat-n">Free</div><div class="stat-l">No registration</div></div>
-  </div>
-  <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30" class="hero-cta" target="_blank">View on GitHub ↗</a>
-</section>
+#12
+RSK2
+Tier 2
+CYS436 · PDB 3G51 · Kinase
+Ribosomal S6 kinase 2 — a downstream RAS effector implicated in breast cancer, multiple myeloma, and prostate cancer. CYS436 in the C-terminal kinase domain is the published covalent site.
+CYS436 C-terminal kinase domain · RAS effector probe design · Full kinase surface ranked
+↗ View Report ⬇ Data
 
-<div class="val-bar">
-  <div class="val-item"><div class="val-check">✓</div>fpocket v4.0 — Le Guilloux 2009</div>
-  <div class="val-item"><div class="val-check">✓</div>UniProt Swiss-Prot</div>
-  <div class="val-item"><div class="val-check">✓</div>ChEMBL REST API</div>
-  <div class="val-item"><div class="val-check">✓</div>RCSB PDB Validation</div>
-  <div class="val-item"><div class="val-check">✓</div>Shannon Conservation</div>
-  <div class="val-item"><div class="val-check">✓</div>DOI: 10.5281/zenodo.19919321</div>
-</div>
+#13
+PIK3CA
+Tier 2
+LYS802 · PDB 3HHM · Lipid kinase
+Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha — the most commonly mutated PI3K isoform in human cancer. H1047R hotspot mutation in breast, colorectal, and endometrial cancers.
+Top LYS sites ranked · H1047R hotspot structural context · LYS-covalent probe design map
+↗ View Report ⬇ Data
 
-<!-- TIER 1 -->
-<div class="section">
-  <div class="section-header">
-    <span class="section-label">Tier 1</span>
-    <h2 class="section-title">Validated covalent targets</h2>
-  </div>
-  <div class="target-grid">
+#14
+BCR-ABL T315I
+Tier 2
+CYS464 · PDB 3IK3 · Kinase
+BCR-ABL1 with the T315I gatekeeper mutation — the most common mechanism of imatinib and dasatinib resistance in CML. Ponatinib overcomes T315I. Active fourth-generation inhibitor development.
+CYS464 gatekeeper context · Ponatinib resistance landscape · Full T315I surface ranked
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#01</div><div class="card-name">BTK C481</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">CYS481 · PDB 3K54 · Kinase</div>
-        <div class="card-desc">Bruton's tyrosine kinase — the primary target of ibrutinib, zanubrutinib, and acalabrutinib. CLL, MCL, and Waldenström macroglobulinaemia. C481S resistance drives ~80% of ibrutinib failures.</div>
-        <div class="card-finding">CYS481 Rank 2 · 4 approved covalent drugs · 0 high-risk kinase off-targets in selectivity panel</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/BTK_C481_Covalent_Tractability_Map_v1/AXARA_BTK_C481_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/BTK_C481_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#15
+PARP1
+Tier 2
+TYR907 · PDB 4DQY · DNA repair
+Poly(ADP-ribose) polymerase 1 — the central BRCA synthetic lethal target. Olaparib, niraparib, rucaparib approved. TYR907 at the NAD+ binding site. Active covalent PARP1 probe development.
+TYR907 NAD+ site · BRCA synthetic lethal context · Olaparib successor probe design
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#02</div><div class="card-name">EGFR C797</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">CYS797 · PDB 4ZAU · RTK</div>
-        <div class="card-desc">Epidermal growth factor receptor — target of osimertinib, afatinib, and neratinib. NSCLC with activating mutations. C797S mutation causes resistance in ~40% of osimertinib-treated patients.</div>
-        <div class="card-finding">CYS797 Rank 3 · Novel CYS775 secondary site independently identified — directly relevant to C797S resistance</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/EGFR_C797_Covalent_Tractability_Map_v1/AXARA_EGFR_C797_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/EGFR_C797_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#16
+BRD4
+Tier 2
+LYS91 · PDB 3MXF · Epigenetic reader
+Bromodomain-containing protein 4 — a key reader of acetylated lysine marks that drives MYC transcription. JQ1 and successor BET inhibitors in extensive clinical development for haematological malignancies.
+LYS91 acetyl-lysine pocket · MYC transcription dependency context · Covalent glue and PROTAC relevance
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#03</div><div class="card-name">KRAS G12C</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">CYS12 · PDB 6OIM · GTPase</div>
-        <div class="card-desc">KRAS G12C is the most tractable oncogenic KRAS mutation — the neomorphic cysteine at position 12 created by the mutation enables covalent inhibition. Sotorasib and adagrasib approved for NSCLC.</div>
-        <div class="card-finding">CYS12 Rank 1 · Engine validated against sotorasib and adagrasib mechanism · KRAS inhibitor market $2.4B → $10.4B by 2033</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/KRAS_G12C_Covalent_Tractability_Map_v1/AXARA_KRAS_G12C_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/KRAS_G12C_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#17
+MDM2
+Tier 2
+CYS77 · PDB 1YCR · E3 ligase
+Mouse double minute 2 homolog — the primary negative regulator of p53. Overexpressed in 10-15% of all cancers. Navtemadlin (AMG-232) in Phase 3. Active photoaffinity probe development at p53/MDM2 interface.
+CYS77 p53 interface site · Navtemadlin PAL context · p53 pathway probe design
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#04</div><div class="card-name">p53 Y220C</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">CYS220 · PDB 8QWN · Tumour suppressor</div>
-        <div class="card-desc">The Y220C mutation creates a neomorphic surface pocket on p53, enabling covalent rescue of tumour suppressor function. 125,000 cases/year. Rezatapopt (PC14586) in Phase 3 trials.</div>
-        <div class="card-finding">CYS220 Rank 2 · Neomorphic pocket confirmed by fpocket · 5/5 validation across independent crystal structures</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/P53_Y220C_Covalent_Tractability_Map_v1/AXARA_p53_Y220C_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/P53_Y220C_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#18
+HIF-2α
+Tier 2
+CYS800 · PDB 5TBM · Transcription factor
+Hypoxia-inducible factor 2 alpha — the molecular driver of VHL-mutant clear cell renal cell carcinoma. Belzutifan (PT2977) approved 2021 for RCC and VHL syndrome — a landmark covalent transcription factor drug.
+CYS800 PAS-B pocket · Belzutifan mechanism confirmed · First approved covalent transcription factor inhibitor
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#05</div><div class="card-name">AKT1</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">LYS158 · PDB 3CQW · Kinase</div>
-        <div class="card-desc">RAC-alpha serine/threonine-protein kinase — a central node in the PI3K/AKT/mTOR pathway. Mutated or hyperactivated in breast, prostate, and ovarian cancers. Terremoto Biosciences TER-2013 platform target.</div>
-        <div class="card-finding">LYS158 ATP-site · fpocket druggability 0.734 · 16,595 ChEMBL compounds · 44 deposited PDB structures</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/AKT1_LYS158_Covalent_Tractability_Map_v1/AXARA_AKT1_LYS158_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/AKT1_LYS158_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#19
+GLP-1R
+Tier 2
+LYS197 · PDB 6X18 · GPCR
+Glucagon-like peptide-1 receptor — target of semaglutide, liraglutide, and tirzepatide for type 2 diabetes and obesity. The largest pharmaceutical market in history. Covalent probe development for mechanism studies.
+LYS197 extracellular domain · Semaglutide binding mechanism context · GPCR topology-filtered site ranking
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#06</div><div class="card-name">MAOB</div></div>
-          <span class="tier-badge tier-1">Tier 1</span>
-        </div>
-        <div class="card-site">CYS397 · PDB 2V5Z · Oxidoreductase</div>
-        <div class="card-desc">Monoamine oxidase B — target of selegiline and rasagiline for Parkinson's disease. One of the oldest validated covalent drug targets with irreversible FAD-linked mechanism.</div>
-        <div class="card-finding">CYS397 Rank 1 · Selegiline mechanism confirmed · Engine validated across oxidoreductase family</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/MAOB_Covalent_Tractability_Map_v1/AXARA_MAOB_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/MAOB_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#20
+STAT3
+Tier 2
+CYS259 · PDB 1BG1 · Transcription factor
+Signal transducer and activator of transcription 3 — constitutively active in breast, lung, prostate, colorectal, and pancreatic cancers as well as multiple myeloma. The SH2 domain CYS259 is the primary covalent site.
+CYS259 Rank 5 · SH2 domain validated · Allosteric coiled-coil/DBD junction sites identified
+↗ View Report ⬇ Data
+TIER 3
+Emerging and IDP targets
 
-  </div>
-</div>
+#21
+MYC-MAX
+IDP
+CYS404 · PDB 4Y7R · Transcription factor
+MYC-MAX dimerisation complex — deregulated in over 70% of human cancers and one of the most sought-after undruggable targets. CYS404 at the dimerisation interface is the primary tractable site.
+CYS404 dimerisation interface · IDP surface mode · First structural probe site map for MYC-MAX complex
+↗ View Report ⬇ Data
 
-<!-- TIER 2 -->
-<div class="section" style="background:var(--white);max-width:100%;padding:60px 0">
-<div style="max-width:1200px;margin:0 auto;padding:0 40px">
-  <div class="section-header">
-    <span class="section-label">Tier 2</span>
-    <h2 class="section-title">High commercial value</h2>
-  </div>
-  <div class="target-grid">
+#22
+LMO2
+IDP
+CYS130 · PDB 2XJY · LIM domain
+LIM domain only 2 — a T-ALL oncogene and master transcriptional regulator. Four zinc ions coordinating 12 cysteines — CYS130 is the only free, pocket-resident cysteine. Adjacent HIS128 creates a charge-relay microenvironment.
+CYS130 Rank 1 · fpocket pocket 5 corroboration · HIS128 charge-relay confirmed · T-ALL probe target
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#07</div><div class="card-name">KRAS G12D</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">LYS12 · PDB 8FGN · GTPase</div>
-        <div class="card-desc">The most common KRAS mutation — present in 36% of pancreatic cancers, 12% of CRC, and 4% of NSCLC. MRTX1133 and other non-covalent inhibitors in clinical trials. Covalent LYS-targeting strategies emerging.</div>
-        <div class="card-finding">Top LYS sites identified · MRTX1133 structural context · Ranked probe design map for LYS-covalent strategy</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/KRAS_G12D_Covalent_Tractability_Map_v1/AXARA_KRAS_G12D_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/KRAS_G12D_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#23
+Alpha-synuclein
+IDP
+TYR39 · PDB 1XQ8 · IDP
+Alpha-synuclein — the central protein in Parkinson's disease pathology. No cysteine residues. TYR39 is the published diazirine crosslink site for caffeine and nicotine binding studies. IDP surface mode validated here.
+TYR39 Rank 1 among TYR residues · IDP surface mode validation · C-terminal acidic tail charge penalty confirmed
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#08</div><div class="card-name">KRAS G12V</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">PDB 6XGU · GTPase</div>
-        <div class="card-desc">Second most common KRAS mutation — present in NSCLC, pancreatic, and colorectal cancers. RAS-ON inhibitor territory. No approved covalent inhibitor — active area of probe and drug discovery.</div>
-        <div class="card-finding">Full nucleophilic site ranking · Structural comparison with G12C and G12D · RAS-ON inhibitor context</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/KRAS_G12V_Covalent_Tractability_Map_v1/AXARA_KRAS_G12V_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/KRAS_G12V_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#24
+Tau
+IDP
+CYS291 · PDB 2MZ7 · IDP
+Microtubule-associated protein tau — the primary aggregating protein in Alzheimer's disease and frontotemporal dementia. Active photoaffinity probe programmes at MSK and multiple academic centres.
+CYS291 and CYS322 site analysis · IDP surface mode · Alzheimer's probe programme context
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#09</div><div class="card-name">WRN Helicase</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS727 · PDB 6YHR · Helicase</div>
-        <div class="card-desc">Werner syndrome RecQ helicase — the hottest synthetic lethal target in oncology for MTAP-deleted and MSI-high tumours. VVD-214 (Vividion/Roche) and HRO761 (Novartis) both in Phase 1 clinical trials.</div>
-        <div class="card-finding">CYS727 Rank 2 · Corroborates VVD-214 covalent chemoproteomic hit · Allosteric pocket confirmed</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/WRN_Covalent_Tractability_Map_v1/AXARA_WRN_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/WRN_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#25
+TDP-43
+IDP
+CYS173 · PDB 2N3X · RNA-binding
+TAR DNA-binding protein 43 — pathological in 95% of ALS and 50% of FTD cases. No published covalent probe exists for TDP-43. This is the first public structural probe site analysis for this critical ALS target.
+CYS173 primary site · No prior covalent probe — genuinely early · ALS/FTD community probe design resource
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#10</div><div class="card-name">SHP2</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS333 · PDB 5EHR · Phosphatase</div>
-        <div class="card-desc">SH2-domain-containing protein tyrosine phosphatase 2 — a RAS pathway phosphatase and key node in oncogenic signalling. TNO155 (Novartis) in Phase 1/2 trials. Allosteric CYS333 is the covalent target.</div>
-        <div class="card-finding">CYS333 allosteric site · TNO155 structural context · Full phosphatase surface ranked</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/SHP2_C333_Covalent_Tractability_Map_v1/AXARA_SHP2_C333_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/SHP2_C333_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#26
+FUS
+IDP
+TYR526 · PDB 6GBM · RNA-binding
+Fused in sarcoma — an RNA-binding protein with liquid-liquid phase separation properties. FUS inclusions in 5% of ALS and 10% of FTD cases. Phase separation target with growing drug discovery interest.
+TYR526 primary site · Phase separation context · IDP surface mode · ALS phase separation probe design
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#11</div><div class="card-name">FGFR1</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS486 · PDB 4V05 · RTK</div>
-        <div class="card-desc">Fibroblast growth factor receptor 1 — futibatinib approved for cholangiocarcinoma with FGFR2 fusions. CYS486 in the ATP binding site. Active clinical programmes across FGFR1-4 family.</div>
-        <div class="card-finding">CYS486 kinase domain site · Futibatinib mechanism context · FGFR family probe design map</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/FGFR1_C486_Covalent_Tractability_Map_v1/AXARA_FGFR1_C486_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/FGFR1_C486_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#27
+RAD51
+Tier 3
+CYS319 · PDB 5NWL · DNA repair
+RAD51 recombinase — the central mediator of homologous recombination. A BRCA synthetic lethal partner and resistance mechanism to PARP inhibitors. CYS319 in the ATP binding domain is the primary site.
+CYS319 Rank 1 · ATP domain site · BRCA synthetic lethal context · PARP inhibitor resistance relevance
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#12</div><div class="card-name">RSK2</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS436 · PDB 3G51 · Kinase</div>
-        <div class="card-desc">Ribosomal S6 kinase 2 — a downstream RAS effector implicated in breast cancer, multiple myeloma, and prostate cancer. CYS436 in the C-terminal kinase domain is the published covalent site.</div>
-        <div class="card-finding">CYS436 C-terminal kinase domain · RAS effector probe design · Full kinase surface ranked</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/RSK2_C436_Covalent_Tractability_Map_v1/AXARA_RSK2_C436_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/RSK2_C436_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#28
+TEAD1
+Tier 3
+CYS359 · PDB 5Z3A · Transcription factor
+TEA domain transcription factor 1 — the downstream effector of the Hippo tumour suppressor pathway. YAP/TAZ-TEAD interaction drives mesothelioma, breast cancer, and drug resistance. CYS359 in the palmitoylation pocket.
+CYS359 palmitoylation pocket · YAP/TAZ pathway context · Hippo pathway probe design map
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#13</div><div class="card-name">PIK3CA</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">LYS802 · PDB 3HHM · Lipid kinase</div>
-        <div class="card-desc">Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha — the most commonly mutated PI3K isoform in human cancer. H1047R hotspot mutation in breast, colorectal, and endometrial cancers.</div>
-        <div class="card-finding">Top LYS sites ranked · H1047R hotspot structural context · LYS-covalent probe design map</div>
-        <div class="card-actions">
-          <a href="https://axarabioscience.github.io/AXARA-Covalent-30/PIK3CA_Covalent_Tractability_Map_v1/AXARA_PIK3CA_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/PIK3CA_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#29
+UBE2N
+Tier 3
+CYS87 · PDB 2GMI · E2 ligase
+Ubiquitin-conjugating enzyme E2 N (UBC13) — an E2 ubiquitin ligase essential for NF-κB pathway activation and DNA damage response. CYS87 is the active site catalytic cysteine that carries ubiquitin.
+CYS87 active site · NF-κB pathway context · LYS-ubiquitin transfer mechanism · Emerging covalent target
+↗ View Report ⬇ Data
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#14</div><div class="card-name">BCR-ABL T315I</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS464 · PDB 3IK3 · Kinase</div>
-        <div class="card-desc">BCR-ABL1 with the T315I gatekeeper mutation — the most common mechanism of imatinib and dasatinib resistance in CML. Ponatinib overcomes T315I. Active fourth-generation inhibitor development.</div>
-        <div class="card-finding">CYS464 gatekeeper context · Ponatinib resistance landscape · Full T315I surface ranked</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/BCR_ABL_T315I_Covalent_Tractability_Map_v1/AXARA_BCR_ABL_T315I_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/BCR_ABL_T315I_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
+#30
+CDK7
+Tier 3
+CYS312 · PDB 6XD3 · Kinase
+Cyclin-dependent kinase 7 — a master regulator of transcription addiction in cancer. THZ1 established proof-of-concept for covalent CDK7 inhibition. SY-5609 and other selective CDK7 inhibitors in clinical trials.
+CYS312 ATP-site · THZ1 covalent mechanism · Transcription addiction probe design · Clinical context
+↗ Coming Soon ⬇ Data
+Data disclaimer — This analysis is based exclusively on publicly deposited structures from the RCSB Protein Data Bank.
+All source structures are freely available at rcsb.org. No proprietary or confidential data has been used.
+All recommendations require experimental validation before synthesis commitment.
 
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#15</div><div class="card-name">PARP1</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">TYR907 · PDB 4DQY · DNA repair</div>
-        <div class="card-desc">Poly(ADP-ribose) polymerase 1 — the central BRCA synthetic lethal target. Olaparib, niraparib, rucaparib approved. TYR907 at the NAD+ binding site. Active covalent PARP1 probe development.</div>
-        <div class="card-finding">TYR907 NAD+ site · BRCA synthetic lethal context · Olaparib successor probe design</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/PARP1_Covalent_Tractability_Map_v1/AXARA_PARP1_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/PARP1_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#16</div><div class="card-name">BRD4</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">LYS91 · PDB 3MXF · Epigenetic reader</div>
-        <div class="card-desc">Bromodomain-containing protein 4 — a key reader of acetylated lysine marks that drives MYC transcription. JQ1 and successor BET inhibitors in extensive clinical development for haematological malignancies.</div>
-        <div class="card-finding">LYS91 acetyl-lysine pocket · MYC transcription dependency context · Covalent glue and PROTAC relevance</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/BRD4_LYS91_Covalent_Tractability_Map_v1/AXARA_BRD4_LYS91_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/BRD4_LYS91_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#17</div><div class="card-name">MDM2</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS77 · PDB 1YCR · E3 ligase</div>
-        <div class="card-desc">Mouse double minute 2 homolog — the primary negative regulator of p53. Overexpressed in 10-15% of all cancers. Navtemadlin (AMG-232) in Phase 3. Active photoaffinity probe development at p53/MDM2 interface.</div>
-        <div class="card-finding">CYS77 p53 interface site · Navtemadlin PAL context · p53 pathway probe design</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/MDM2_Covalent_Tractability_Map_v1/AXARA_MDM2_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/MDM2_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#18</div><div class="card-name">HIF-2α</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS800 · PDB 5TBM · Transcription factor</div>
-        <div class="card-desc">Hypoxia-inducible factor 2 alpha — the molecular driver of VHL-mutant clear cell renal cell carcinoma. Belzutifan (PT2977) approved 2021 for RCC and VHL syndrome — a landmark covalent transcription factor drug.</div>
-        <div class="card-finding">CYS800 PAS-B pocket · Belzutifan mechanism confirmed · First approved covalent transcription factor inhibitor</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/HIF2A_Covalent_Tractability_Map_v1/AXARA_HIF2A_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/HIF2A_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#19</div><div class="card-name">GLP-1R</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">LYS197 · PDB 6X18 · GPCR</div>
-        <div class="card-desc">Glucagon-like peptide-1 receptor — target of semaglutide, liraglutide, and tirzepatide for type 2 diabetes and obesity. The largest pharmaceutical market in history. Covalent probe development for mechanism studies.</div>
-        <div class="card-finding">LYS197 extracellular domain · Semaglutide binding mechanism context · GPCR topology-filtered site ranking</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/GLP1R_Covalent_Tractability_Map_v1/AXARA_GLP1R_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/GLP1R_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#20</div><div class="card-name">STAT3</div></div>
-          <span class="tier-badge tier-2">Tier 2</span>
-        </div>
-        <div class="card-site">CYS259 · PDB 1BG1 · Transcription factor</div>
-        <div class="card-desc">Signal transducer and activator of transcription 3 — constitutively active in breast, lung, prostate, colorectal, and pancreatic cancers as well as multiple myeloma. The SH2 domain CYS259 is the primary covalent site.</div>
-        <div class="card-finding">CYS259 Rank 5 · SH2 domain validated · Allosteric coiled-coil/DBD junction sites identified</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/STAT3_Covalent_Tractability_Map_v1/AXARA_STAT3_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/STAT3_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-
-<!-- TIER 3 -->
-<div class="section">
-  <div class="section-header">
-    <span class="section-label">Tier 3</span>
-    <h2 class="section-title">Emerging and IDP targets</h2>
-  </div>
-  <div class="target-grid">
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#21</div><div class="card-name">MYC-MAX</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">CYS404 · PDB 4Y7R · Transcription factor</div>
-        <div class="card-desc">MYC-MAX dimerisation complex — deregulated in over 70% of human cancers and one of the most sought-after undruggable targets. CYS404 at the dimerisation interface is the primary tractable site.</div>
-        <div class="card-finding amber">CYS404 dimerisation interface · IDP surface mode · First structural probe site map for MYC-MAX complex</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/MYC_MAX_Covalent_Tractability_Map_v1/AXARA_MYC_MAX_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/MYC_MAX_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#22</div><div class="card-name">LMO2</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">CYS130 · PDB 2XJY · LIM domain</div>
-        <div class="card-desc">LIM domain only 2 — a T-ALL oncogene and master transcriptional regulator. Four zinc ions coordinating 12 cysteines — CYS130 is the only free, pocket-resident cysteine. Adjacent HIS128 creates a charge-relay microenvironment.</div>
-        <div class="card-finding amber">CYS130 Rank 1 · fpocket pocket 5 corroboration · HIS128 charge-relay confirmed · T-ALL probe target</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/LMO2_Covalent_Tractability_Map_v1/AXARA_LMO2_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/LMO2_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#23</div><div class="card-name">Alpha-synuclein</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">TYR39 · PDB 1XQ8 · IDP</div>
-        <div class="card-desc">Alpha-synuclein — the central protein in Parkinson's disease pathology. No cysteine residues. TYR39 is the published diazirine crosslink site for caffeine and nicotine binding studies. IDP surface mode validated here.</div>
-        <div class="card-finding amber">TYR39 Rank 1 among TYR residues · IDP surface mode validation · C-terminal acidic tail charge penalty confirmed</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/ASYNUCLEIN_Covalent_Tractability_Map_v1/AXARA_ASYNUCLEIN_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/ASYNUCLEIN_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#24</div><div class="card-name">Tau</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">CYS291 · PDB 2MZ7 · IDP</div>
-        <div class="card-desc">Microtubule-associated protein tau — the primary aggregating protein in Alzheimer's disease and frontotemporal dementia. Active photoaffinity probe programmes at MSK and multiple academic centres.</div>
-        <div class="card-finding amber">CYS291 and CYS322 site analysis · IDP surface mode · Alzheimer's probe programme context</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/TAU_Covalent_Tractability_Map_v1/AXARA_TAU_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/TAU_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#25</div><div class="card-name">TDP-43</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">CYS173 · PDB 2N3X · RNA-binding</div>
-        <div class="card-desc">TAR DNA-binding protein 43 — pathological in 95% of ALS and 50% of FTD cases. No published covalent probe exists for TDP-43. This is the first public structural probe site analysis for this critical ALS target.</div>
-        <div class="card-finding amber">CYS173 primary site · No prior covalent probe — genuinely early · ALS/FTD community probe design resource</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/TDP43_Covalent_Tractability_Map_v1/AXARA_TDP43_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/TDP43_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#26</div><div class="card-name">FUS</div></div>
-          <span class="tier-badge tier-3">IDP</span>
-        </div>
-        <div class="card-site">TYR526 · PDB 6GBM · RNA-binding</div>
-        <div class="card-desc">Fused in sarcoma — an RNA-binding protein with liquid-liquid phase separation properties. FUS inclusions in 5% of ALS and 10% of FTD cases. Phase separation target with growing drug discovery interest.</div>
-        <div class="card-finding amber">TYR526 primary site · Phase separation context · IDP surface mode · ALS phase separation probe design</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/FUS_Covalent_Tractability_Map_v1/AXARA_FUS_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/FUS_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#27</div><div class="card-name">RAD51</div></div>
-          <span class="tier-badge tier-3">Tier 3</span>
-        </div>
-        <div class="card-site">CYS319 · PDB 5NWL · DNA repair</div>
-        <div class="card-desc">RAD51 recombinase — the central mediator of homologous recombination. A BRCA synthetic lethal partner and resistance mechanism to PARP inhibitors. CYS319 in the ATP binding domain is the primary site.</div>
-        <div class="card-finding amber">CYS319 Rank 1 · ATP domain site · BRCA synthetic lethal context · PARP inhibitor resistance relevance</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/RAD51_Covalent_Tractability_Map_v1/AXARA_RAD51_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/RAD51_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#28</div><div class="card-name">TEAD1</div></div>
-          <span class="tier-badge tier-3">Tier 3</span>
-        </div>
-        <div class="card-site">CYS359 · PDB 5Z3A · Transcription factor</div>
-        <div class="card-desc">TEA domain transcription factor 1 — the downstream effector of the Hippo tumour suppressor pathway. YAP/TAZ-TEAD interaction drives mesothelioma, breast cancer, and drug resistance. CYS359 in the palmitoylation pocket.</div>
-        <div class="card-finding amber">CYS359 palmitoylation pocket · YAP/TAZ pathway context · Hippo pathway probe design map</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/TEAD1_Covalent_Tractability_Map_v1/AXARA_TEAD1_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/TEAD1_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#29</div><div class="card-name">UBE2N</div></div>
-          <span class="tier-badge tier-3">Tier 3</span>
-        </div>
-        <div class="card-site">CYS87 · PDB 2GMI · E2 ligase</div>
-        <div class="card-desc">Ubiquitin-conjugating enzyme E2 N (UBC13) — an E2 ubiquitin ligase essential for NF-κB pathway activation and DNA damage response. CYS87 is the active site catalytic cysteine that carries ubiquitin.</div>
-        <div class="card-finding amber">CYS87 active site · NF-κB pathway context · LYS-ubiquitin transfer mechanism · Emerging covalent target</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/UBE2N_Covalent_Tractability_Map_v1/AXARA_UBE2N_Covalent_Tractability_Map_v1.html" class="btn-report" target="_blank">↗ View Report</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/UBE2N_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="target-card">
-      <div class="card-accent amber"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <div><div class="card-num">#30</div><div class="card-name">CDK7</div></div>
-          <span class="tier-badge tier-3">Tier 3</span>
-        </div>
-        <div class="card-site">CYS312 · PDB 6XD3 · Kinase</div>
-        <div class="card-desc">Cyclin-dependent kinase 7 — a master regulator of transcription addiction in cancer. THZ1 established proof-of-concept for covalent CDK7 inhibition. SY-5609 and other selective CDK7 inhibitors in clinical trials.</div>
-        <div class="card-finding amber">CYS312 ATP-site · THZ1 covalent mechanism · Transcription addiction probe design · Clinical context</div>
-        <div class="card-actions">
-          <a href="https://axarabiosciences.github.io/AXARA-Covalent-30/CDK7_C312_Covalent_Tractability_Map_v1/" class="btn-report" target="_blank" style="background:#888">↗ Coming Soon</a>
-          <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30/tree/main/CDK7_C312_Covalent_Tractability_Map_v1" class="btn-data" target="_blank">⬇ Data</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="disclaimer">
-  <strong style="color:var(--white)">Data disclaimer</strong> — This analysis is based exclusively on publicly deposited structures from the RCSB Protein Data Bank.<br>
-  All source structures are freely available at <a href="https://rcsb.org">rcsb.org</a>. No proprietary or confidential data has been used.<br>
-  All recommendations require experimental validation before synthesis commitment.<br><br>
-  Engine v5.0 · DOI <a href="https://doi.org/10.5281/zenodo.19919321">10.5281/zenodo.19919321</a> · 
-  <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30">GitHub</a> · 
-  <a href="https://axara.bio">axara.bio</a>
-</div>
-
-<footer>
-  <div class="footer-logo">AXARA</div>
-  <div class="footer-links">
-    <a href="https://axara.bio">axara.bio</a>
-    <a href="https://axara.bio/data-products-1">Data Products</a>
-    <a href="https://axara.bio/rule-of-25-engine">Rule of 25</a>
-    <a href="https://github.com/AxaraBioScience/AXARA-Covalent-30">GitHub</a>
-    <a href="mailto:axara@axara.bio">Contact</a>
-  </div>
-</footer>
-
-</body>
-</html>
+Engine v5.0 · DOI 10.5281/zenodo.19919321 · GitHub · axara.bio
+AXARA
+axara.bio
+Data Products
+Rule of 25
+GitHub
+Contact
