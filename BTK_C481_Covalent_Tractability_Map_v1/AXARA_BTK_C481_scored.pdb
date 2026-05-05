@@ -1,9 +1,9 @@
 REMARK   1 AXARA BioScience — BTK_C481 Covalent Tractability Map v1.0
 REMARK   1 B-factor = AXARA composite tractability score (0-25)
 REMARK   1 Primary structure: 3K54
-REMARK   1 Engine v5.0 | April 2026
+REMARK   1 Engine v5.0 | May 2026
 REMARK   1 PyMOL: spectrum b, blue_white_red, minimum=0, maximum=25
-REMARK   1 UniProt: P06239 | ChEMBL: CHEMBL5251
+REMARK   1 UniProt: Q06187 | ChEMBL: CHEMBL5251
 REMARK   1 Third-party sources: UniProt, ChEMBL, RCSB, fpocket v4.0
 HEADER    TRANSFERASE                             06-OCT-09   3K54              
 TITLE     STRUCTURES OF HUMAN BRUTON'S TYROSINE KINASE IN ACTIVE AND INACTIVE   
