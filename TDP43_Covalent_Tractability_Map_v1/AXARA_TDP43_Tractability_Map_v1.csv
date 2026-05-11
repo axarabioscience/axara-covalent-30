@@ -1,3 +1,9 @@
 rank,residue,position,abs_sasa_A2,rel_sasa,dist_to_pocket_A,proximity_score,chemistry_score,pocket_mult,bypass_applied,composite_score,scoring_mode,uniprot_active_site,uniprot_binding_site,uniprot_variant,conservation,chembl_covalent_n,pdb_covalent_n,rcsb_quality_pass,third_party_score,evidence_tier,notes
-1,SER,333,9.6,0.067,,0.253,2.5,1.0,False,3.13,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
-2,SER,350,14.8,0.103,,0.113,2.5,1.0,False,2.06,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+1,LYS,140,23.3,0.114,,0.472,6.0,1.0,False,6.59,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+2,TYR,214,7.6,0.033,,0.549,5.0,1.0,False,6.49,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+3,LYS,137,6.8,0.033,,0.347,6.0,1.0,False,5.3,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+4,HIS,143,17.0,0.094,,0.43,4.0,1.0,False,5.27,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+5,SER,258,7.6,0.054,,0.314,2.5,1.0,False,3.59,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+6,HIS,264,9.7,0.054,,0.177,4.0,1.0,False,3.15,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+7,SER,183,5.9,0.042,,0.223,2.5,1.0,False,2.85,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction
+8,THR,116,8.5,0.052,,0.191,2.0,1.0,False,2.39,POCKET,False,False,,1.0,0,40,False,4.0,NOVEL PREDICTION,AXARA Engine v5.0 computational prediction

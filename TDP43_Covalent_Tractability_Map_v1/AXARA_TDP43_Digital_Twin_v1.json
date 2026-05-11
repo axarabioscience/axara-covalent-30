@@ -2,13 +2,13 @@
   "product": "TDP43 Covalent Tractability Map",
   "version": "1.0",
   "engine_version": "5.0",
-  "release_date": "2026-04-30",
+  "release_date": "2026-05-11",
   "target": "TDP43",
-  "primary_structure": "2N3X",
+  "primary_structure": "4BS2",
   "scoring_mode": "POCKET",
   "enrichment": {
     "engine_version": "5.0",
-    "fetch_timestamp": "2026-04-30 13:31 UTC",
+    "fetch_timestamp": "2026-05-11 19:08 UTC",
     "uniprot_accession": "Q13148",
     "uniprot_gene": "TARDBP",
     "uniprot_function": "RNA-binding protein that is involved in various steps of RNA biogenesis and processing (PubMed:23519609). Preferentially binds, via its two RNA recognition motifs RRM1 and RRM2, to GU-repeats on RNA molecules predominantly localized within long introns and in the 3'UTR of mRNAs (PubMed:23519609, Pub",
@@ -45,8 +45,8 @@
       "5W50"
     ],
     "rcsb_resolution_A": null,
-    "rcsb_clashscore": 4.34,
-    "rcsb_rama_outliers_pct": null,
+    "rcsb_clashscore": 2.78,
+    "rcsb_rama_outliers_pct": 1.13,
     "rcsb_rsrz_outliers_pct": null,
     "rcsb_quality_pass": false,
     "rcsb_space_group": "",
@@ -62,8 +62,8 @@
     }
   },
   "top_probe_site": {
-    "residue": "SER333",
-    "composite_score": 3.13,
+    "residue": "LYS140",
+    "composite_score": 6.59,
     "third_party_score": 4.0,
     "uniprot_annotated": false,
     "conservation": 1.0
@@ -71,9 +71,9 @@
   "all_scored": [
     {
       "rank": 1,
-      "residue": "SER",
-      "position": 333,
-      "score": 3.13,
+      "residue": "LYS",
+      "position": 140,
+      "score": 6.59,
       "third_party_score": 4.0,
       "uniprot_active": false,
       "conservation": 1.0,
@@ -81,9 +81,69 @@
     },
     {
       "rank": 2,
+      "residue": "TYR",
+      "position": 214,
+      "score": 6.49,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 3,
+      "residue": "LYS",
+      "position": 137,
+      "score": 5.3,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 4,
+      "residue": "HIS",
+      "position": 143,
+      "score": 5.27,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 5,
       "residue": "SER",
-      "position": 350,
-      "score": 2.06,
+      "position": 258,
+      "score": 3.59,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 6,
+      "residue": "HIS",
+      "position": 264,
+      "score": 3.15,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 7,
+      "residue": "SER",
+      "position": 183,
+      "score": 2.85,
+      "third_party_score": 4.0,
+      "uniprot_active": false,
+      "conservation": 1.0,
+      "evidence_tier": "NOVEL PREDICTION"
+    },
+    {
+      "rank": 8,
+      "residue": "THR",
+      "position": 116,
+      "score": 2.39,
       "third_party_score": 4.0,
       "uniprot_active": false,
       "conservation": 1.0,
@@ -92,19 +152,171 @@
   ],
   "excluded": [
     {
-      "residue": "SER317",
+      "residue": "SER97",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "HIS98",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER101",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS102",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR103",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER104",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS114",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR115",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS121",
+      "reason": "Buried (rel_SASA 0.004 < 0.03)"
+    },
+    {
+      "residue": "TYR123",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER125",
       "reason": "Buried (rel_SASA 0.006 < 0.03)"
     },
     {
-      "residue": "SER332",
-      "reason": "Buried (rel_SASA 0.024 < 0.03)"
+      "residue": "THR126",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
     },
     {
-      "residue": "SER342",
-      "reason": "Buried (rel_SASA 0.018 < 0.03)"
+      "residue": "LYS136",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
     },
     {
-      "residue": "SER347",
+      "residue": "THR141",
+      "reason": "Buried (rel_SASA 0.026 < 0.03)"
+    },
+    {
+      "residue": "SER144",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS145",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR153",
+      "reason": "Buried (rel_SASA 0.007 < 0.03)"
+    },
+    {
+      "residue": "TYR155",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR157",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS160",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER163",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "HIS166",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "CYS173",
+      "reason": "Buried CYS, dist 12.7A to pocket"
+    },
+    {
+      "residue": "CYS175",
+      "reason": "Buried CYS, dist 12.2A to pocket"
+    },
+    {
+      "residue": "LYS176",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER180",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS181",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER190",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS192",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "CYS198",
+      "reason": "Buried CYS, dist 7.1A to pocket"
+    },
+    {
+      "residue": "THR199",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "THR203",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER212",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "LYS224",
+      "reason": "Buried (rel_SASA 0.026 < 0.03)"
+    },
+    {
+      "residue": "THR233",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER242",
+      "reason": "Buried (rel_SASA 0.007 < 0.03)"
+    },
+    {
+      "residue": "CYS244",
+      "reason": "Buried CYS, dist 5.8A to pocket"
+    },
+    {
+      "residue": "LYS251",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER254",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "HIS256",
+      "reason": "Buried (rel_SASA 0.005 < 0.03)"
+    },
+    {
+      "residue": "LYS263",
+      "reason": "Buried (rel_SASA 0.000 < 0.03)"
+    },
+    {
+      "residue": "SER266",
       "reason": "Buried (rel_SASA 0.000 < 0.03)"
     }
   ],
